@@ -1,6 +1,6 @@
 <template>
     <div class="page-home-cinemas">
-        <h1>我是电影列表页</h1>
+        <h1>我是影院列表页</h1>
     </div>
 </template>
 

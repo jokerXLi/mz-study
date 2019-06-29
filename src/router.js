@@ -17,6 +17,10 @@ export default new VueRouter({
         },
         { path: "center", component: () => import("./views/home/center.vue") },
         {
+          path: "preferential",
+          component: () => import("./views/home/preferential.vue")
+        },
+        {
           //默认去的地址
           path: "*",
           redirect: "/films"
@@ -30,7 +34,6 @@ export default new VueRouter({
     {
       path: "/city",
       component: () => import("./views/city/index.vue") //一级路由
-    },
-  
+    }
   ]
 });
