@@ -6,6 +6,7 @@ Vue.use(VueRouter);
 export default new VueRouter({
   routes: [
     {
+      //初始化项目
       path: "/", //一级路由（跳转时整个页面更换），多个一级路由用逗号隔开{path...},{path...},
       component: () => import("./views/home/index.vue"), //首页地址
       children: [
