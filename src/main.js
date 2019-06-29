@@ -2,7 +2,7 @@
 import Vue from "vue";
 import router from "./router";
 import store from './store'
-import APP from "./APP";
+import APP from "./App";
 import './assets/style/base.scss'
 
 new Vue({
